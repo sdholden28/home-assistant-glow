@@ -20,12 +20,6 @@ text_sensor:
     hide_timestamp: true
     name: '${friendly_name} - ESPHome Version'
 
-sensor:
-  # WiFi signal
-  - platform: wifi_signal
-    name: "${friendly_name} - WiFi Signal"
-    update_interval: 120s
-
 # Enable time component to reset energy at midnight
 # https://esphome.io/components/time/homeassistant.html
 time:
